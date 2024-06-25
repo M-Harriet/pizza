@@ -1,0 +1,26 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+   
+}
+
+.img-1{
+    display: block;
+    height: 350px;
+    width: 350px;
+
+}
+.img-1 img{
+    transition: transform 0.5s ease, opacity 0.5s ease;
+    
+}
+
+.img-1:hover{
+    background-color: #e0aa15;
+ 
+}
+.img-1:hover img{
+    opacity: 0.5;
+
+}
